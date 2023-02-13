@@ -17,4 +17,16 @@ public class Print {
         }
         System.out.println();
     }
+
+    /**
+     * ½»»»Î»ÖÃ
+     * @param arr
+     * @param i
+     * @param j
+     */
+    public static void swap(int[] arr, int i, int j){
+        int tmp = arr[j];
+        arr[j] = arr[i];
+        arr[i] = tmp;
+    }
 }
